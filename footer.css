@@ -1,0 +1,105 @@
+footer{
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    height:100%;
+    padding: 24px 0px;
+    
+}
+
+.footer-container{
+    font-size: 1rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.footer-container .links-container{
+    display: flex;
+}
+
+.footer-container .links-container .sub-links-container{
+    width: 200px;
+    max-width: 250px;
+    margin: 1rem;
+}
+
+
+.footer-container .links-container .sub-links-container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0,0,0,.56);
+    padding: 0;
+    font-weight: 400;
+    line-height: 2.5;
+    letter-spacing: -0.01em;
+}
+
+hr{
+    border: none;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgba(0,0,0,.1);
+}
+
+
+
+
+
+
+.sub-links-container ul li a{
+    transition: all .2s ease-out;
+    color: rgba(0,0,0,.56);
+    text-decoration: none;
+}
+
+.sub-links-container ul li a:hover{
+    color: rgba(0,0,0,.87);
+}
+
+.links-social-media ul{
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    width: 20%;
+    justify-content:space-between;
+    margin-top:2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.links-last-line ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+
+.links-last-line ul li a{
+    text-decoration: none;
+}
+
+.links-last-line ul li a:hover{
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.links-last-line ul li span{
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+.links-container:last-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.last-line p{
+    color: rgba(0,0,0,.56);
+    font-size: 0.5rem;
+}
+
+
+
